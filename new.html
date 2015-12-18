@@ -1,0 +1,91 @@
+<?php
+mysql_connection('localhost','root','');
+
+mysql_select_db('test');
+
+$sql="SELECT * FROM users";
+$records=mysql_query($sql);
+
+
+?>
+<html>
+		<head>
+			<title>Asignment 1</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+			<script src="jscripit.js"></script>
+		</head>
+	
+	<body>
+		<div class="container">
+				<div class="jumbotron">
+				
+					<h1><b><font color="orange">Conestoga Pizzeria</font></b></h1>
+					<p><font color="brown"><i>Happiness is a slice of PIZZA!!!!</i></font></p>
+					<a href="bootstrap.html">Back</a>
+					<h2>WELCOME Admin!!!!!!!!!</h2></div>
+					
+					
+					
+					<table class="table">
+					
+						<thead>
+							<tr>
+								<th><b>id</b></th>
+								<th><b>Name</b></th>
+								<th><b>Type of Pizza</b></th>
+								<th><b>order date</b></th>
+								
+								
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th>1</th>
+								<th>Jsmith</th>
+								<th>pepperoni</th>
+								<th>2015-11-13</th>
+								<th><a href=1.html>edit</a></th>
+								<th><a href=2.html>delete</a></th>
+							</tr>
+								<th>2</th>
+								<th>Joe</th>
+								<th>meat lover</th>
+								<th>2015-12-16</th>
+								<th><a href=1.html>edit</a></th>
+								<th><a href=2.html>delete</a></th>
+							<tr>
+								
+							</tr>
+							<tr>
+								<th>3</th>
+								<th>mary</th>
+								<th>Veggie</th>
+								<th>2015-12-13</th>
+								<th><a href=1.html>edit</a></th>
+								<th><a href=2.html>delete</a></th>
+							</tr>
+							<tr>
+								<th>4</th>
+								<th>mary</th>
+								<th>Canadian</th>
+								<th>2015-12-13</th>
+								<th><a href=1.html>edit</a></th>
+								<th><a href=2.html>delete</a></th>
+							</tr>
+							</tr>
+								<th>5</th>
+								<th>Joe</th>
+								<th>Deluxe</th>
+								<th>2015-12-10</th>
+								<th><a href=1.html>edit</a></th>
+								<th><a href=2.html>delete</a></th>
+							<tr>
+						</tbody>	
+					</table>
+						
+	</body>
+</html>

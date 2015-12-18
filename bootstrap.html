@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Asignment 1</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="jscripit.js"></script>
+	</head>
+	<body>
+	
+		<img src="1.jpg" class="img-responsive">
+		
+			<div class="container">
+				<div class="jumbotron">
+				
+					<h1><b><font color="orange">Conestoga Pizzeria</font></b></h1>
+						<p><font color="brown"><i>Happiness is a slice of PIZZA!!!!</i></font></p>
+						<h2> Login</h2>
+						<form data-toggle="validator" role="form" action='new.html' method='post'>
+								<div class="form-group">
+									<label for="Username" class="control-label">Username:</label>
+									<input type="text" class="form-control" id="Username" placeholder="Username" required>
+								</div>
+								<div class="form-group">
+									<label for="password" class="control-label">Password:</label>
+									<input type="password" class="form-control" id="password" placeholder="Password" required>
+								</div>
+								<nav>
+								
+								<div class="form-group">
+										<button class="btn btn-danger" type="submit">Submit</button>
+										<button class="btn btn-danger" type="reset">Reset</button></div>
+						</form>
+					
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+					
+						<h3><b><i><font color="red">User Details</i></b></h3>
+							<form data-toggle="validator" role="form">
+								<div class="form-group">
+									<label for="Name" class="control-label">Name:</label>
+									<input type="text" class="form-control" id="Name" placeholder="Name" required>
+								</div>
+								<div class="form-group">
+									<label for="Address" class="control-label">Address:</label>
+									<input type="text" class="form-control" id="Address" placeholder="Address" required>
+								</div>
+								<div class="form-group">
+									<label for="postal code">Postal Code:</label>
+									<input type="postal code" class="form-control" id="postal code" placeholder="Postal Code" required>
+								</div>
+								<div class="form-group">
+									<label for="city">City:</label>
+									<input type="city" class="form-control" id="city" placeholder="City" required>
+								</div>
+								<div class="form-group">
+									<label for="sel1">Province:</label>
+									<select class="form-control" id="sel1" required>
+										<option>Select</option>
+										<option>Ontario</option>
+										<option>Manitoba</option>
+										<option>Quebec</option>
+										<option>Saskatchewan</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label for="telephone">Telephone:</label>
+									<input type="number" class="form-control" id="telephone" placeholder="Telephone" maxlength="10"  required>
+										<div class="help-block with-errors">
+										</div>
+								</div>
+								<div class="form-group">
+									<label for="inputEmail" class="control-label">Email</label>
+									<input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="Bruh, that email address is invalid" required>
+									<div class="help-block with-errors"></div>
+								</div><br>
+  
+								<button class="btn btn-danger" type="submit">Submit</button>
+								<button class="btn btn-danger" type="reset">Reset</button>
+						</form>
+					<img src="1.jpg" class="img-responsive">
+				</div>
+					<div class="col-sm-4">
+					</div>
+					<div class="col-sm-4">
+						<h3><b><i><font color="green">Make an Order</font</b></i></h3>
+							<form>	  
+								<div class="form-group">
+									<label for="sel1">Type of Pizza:</label>
+										<select class="form-control" id="sel1">
+											<option>Select</option>
+											<option>Small $5</option>
+											<option>Medium $10</option>
+											<option>Large $15</option>
+											<option>x-Large $20</option>
+										</select>
+								</div>
+								<div class="form-group">
+									<label for="sel1">Type of Crust:</label>
+										<select class="form-control" id="sel1">
+											<option>Select</option>
+											<option>Hand-tossed</option>
+											<option>Pan-stuffed</option>
+											<option>Thin</option>
+										</select>
+								</div>
+								<div class="form-group">
+									<label for="sel1">Topping 1:</label>
+										<select class="form-control" id="sel1">
+											<option>Select</option>
+											<option>Pepperoni</option>
+											<option>Bacon</option>
+											<option>Chicken</option>
+											<option>Onion</option>
+											<option>Pineapple</option>
+											<option>Green Pepper</option>
+											<option>Tomato</option>
+											<option>Green olives</option>
+											<option>Black olives</option>
+											<option>Cheddar</option>
+										</select>
+								</div>
+								<label for="sel1"> Additional Topping:</label>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Pepperoni</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Chicken</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Bacon</label>
+									</div>
+   
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Onion</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Pineapple</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Green Pepper</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Tomato</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Green Olives</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Black Olives</label>
+									</div>
+									<div class="checkbox">
+										<label><input type="checkbox" value="">Cheddar</label>
+									</div>
+									<div class="form-group">
+										<label for="total">Total:</label>
+										<input type="total" class="form-control" id="total" placeholder="Total">
+									</div><br>
+									<div class="form-group">
+										<button class="btn btn-danger" type="submit">Submit</button>
+									<button class="btn btn-danger" type="reset">Reset</button></div>
+							</form>
+						<img src="1.jpg" class="img-responsive">
+					</div>
+	
+				</div>
+			</div>
+
+	</body>
+</html>
